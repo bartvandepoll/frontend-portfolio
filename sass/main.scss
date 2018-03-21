@@ -177,7 +177,7 @@ body {
 
 }
 
-.alpha1 h4{
+.alpha1 h4 {
   color: red;
   font-size: 25px;
 }
@@ -200,7 +200,7 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.alpha3 h4{
+.alpha3 h4 {
   color: red;
   font-size: 25px;
 }
@@ -222,7 +222,7 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.alpha5 h4{
+.alpha5 h4 {
   color: red;
   font-size: 25px;
 }
@@ -244,14 +244,14 @@ body {
   justify-content: center;
 }
 
-.quikid{
+.quikid {
   height: 100%;
   width: 50vw;
   background-color: #3c5a93;
   position: relative;
 }
 
-.header4{
+.header4 {
   width: 490px;
   height: 100%;
 
@@ -269,24 +269,22 @@ body {
   position: absolute;
   color: white;
 
-
 }
 
-.contactme{
+.contactme {
   height: 100%;
   width: 50vw;
   background-color: #aeb0c4;
   position: relative;
 }
 
-.header5{
+.header5 {
   width: 450px;
   height: 100%;
   margin: 0 auto;
   position: absolute;
   left: 40px;
 }
-
 
 .header5 h3 {
   font-size: 35px;
@@ -297,8 +295,7 @@ body {
 
 }
 
-
-.main4{
+.main4 {
   width: 490px;
   height: 40vh;
   position: absolute;
@@ -309,28 +306,62 @@ body {
 
 }
 
-.info{
+.info {
   font-size: 20px;
   color: white;
   position: absolute;
   left: 0;
 }
 
-
-.info2{
+.info2 {
   font-size: 20px;
   color: white;
 }
 
-
-
-.main5{
+.main5 {
   width: 490px;
   height: 40vh;
   position: absolute;
   left: 0;
   margin-top: 14%;
   background-color: #68bcba;
+}
+
+.name {
+  width: 100%;
+  input {
+    width: 48%;
+  }
+}
+
+//.email {
+//  width: 100%;
+//  input {
+//    width: 48.5%
+//  }
+//}
+
+.subject {
+  width: 100%;
+  input {
+    width: 97%;
+
+  }
+}
+
+.message {
+  width: 100%;
+  textarea {
+    width: 96%;
+
+  }
+}
+
+.submit {
+  margin: 0 auto;
+  input{
+    margin: 0 auto;
+  }
 }
 
 .container5 {
