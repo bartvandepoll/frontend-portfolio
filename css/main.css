@@ -231,7 +231,7 @@ body {
   height: 100%;
   margin: 0 auto;
   position: absolute;
-  left: 40px; }
+  left: 5%; }
 
 .header5 h3 {
   font-size: 35px;
@@ -264,28 +264,43 @@ body {
   height: 40vh;
   position: absolute;
   left: 0;
-  margin-top: 14%;
-  background-color: #68bcba; }
+  margin-top: 14%; }
 
-.name {
+.nameAndEmail {
   width: 100%; }
-  .name input {
-    width: 48%; }
+  .nameAndEmail input {
+    padding: 0;
+    border: none;
+    width: 42%;
+    margin-left: 7%;
+    border-bottom: 1px solid black;
+    background-color: #aeb0c4; }
 
 .subject {
   width: 100%; }
   .subject input {
-    width: 97%; }
+    padding: 0;
+    border: none;
+    width: 92%;
+    margin-left: 7%;
+    border-bottom: 1px solid black;
+    background-color: #aeb0c4; }
 
 .message {
   width: 100%; }
   .message textarea {
-    width: 96%; }
+    padding: 0;
+    border: none;
+    width: 92%;
+    margin-left: 7%;
+    border-bottom: 1px solid black;
+    background-color: #aeb0c4; }
 
 .submit {
   margin: 0 auto; }
   .submit input {
-    margin: 0 auto; }
+    width: 92%;
+    margin-left: 7%; }
 
 .container5 {
   height: 50vh;
