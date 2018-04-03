@@ -93,15 +93,9 @@ body {
   letter-spacing: 10px;
   font-family: 'Heebo', sans-serif;
   text-align: center;
+  border-bottom: red 10px solid;
   margin-top: 10%;
   position: absolute; }
-
-.beta {
-  width: 60px;
-  height: 10px;
-  background-color: red;
-  position: relative;
-  top: 200%; }
 
 .main2 {
   margin: 14% auto;
@@ -139,15 +133,9 @@ body {
   letter-spacing: 10px;
   font-family: 'Heebo', sans-serif;
   text-align: center;
+  border-bottom: red 10px solid;
   margin-top: 12%;
   position: absolute; }
-
-.beta2 {
-  width: 60px;
-  height: 10px;
-  background-color: black;
-  position: relative;
-  top: 240%; }
 
 .main3 {
   width: 980px;
@@ -237,15 +225,10 @@ body {
   letter-spacing: 10px;
   font-family: 'Heebo', sans-serif;
   text-align: center;
+  border-bottom: red 10px solid;
   margin-top: 2%;
   position: absolute;
   color: white; }
-
-.beta3 {
-  width: 60px;
-  height: 10px;
-  background-color: red;
-  margin-top: 15%; }
 
 .contactme {
   height: 100%;
@@ -266,14 +249,9 @@ body {
   letter-spacing: 10px;
   font-family: 'Heebo', sans-serif;
   text-align: center;
+  border-bottom: red 10px solid;
   margin-top: 2%;
   position: absolute; }
-
-.beta4 {
-  width: 60px;
-  height: 10px;
-  background-color: red;
-  margin-top: 15%; }
 
 .main4 {
   width: 490px;
@@ -378,5 +356,9 @@ body {
 .social img {
   margin-left: 2%;
   padding-top: 4%; }
+
+@media (max-width: 900px) {
+  .container2 {
+    color: red; } }
 
 /*# sourceMappingURL=main.css.map */
