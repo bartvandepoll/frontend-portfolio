@@ -1,7 +1,7 @@
 body {
   margin: 0 auto;
   background-color: black;
-  height: 380vh;
+
 }
 
 .container {
@@ -464,4 +464,4 @@ body {
   padding-top: 4%;
 }
 
-@import "mobile";
+@import "mobile.scss";
