@@ -1,19 +1,137 @@
 @media (max-width: 500px) {
-  .container3{
+  .container2 {
+    height: 175vh;
+  }
+
+  .header2 {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+  .article2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+  .container3 {
     height: 202vh;
+    background-color: #68bcba;
+    background-image: none;
 
   }
-  .container2{
-    height: 100vh;
+
+  .header3 {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
   }
+
   .main3 {
-
+    width: 60%;
     height: 60vh;
     margin: 17% auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
+  }
+
+  .header4{
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .header6{
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .breed {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .container4{
+    width: 100vw;
+  }
+
+  .container6{
+    width: 100vw;
+  }
+
+}
+
+@media (max-width: 376px) {
+  .container2 {
+    height: 205vh;
+  }
+
+  .header2 {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+  .article2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+  .container3 {
+    height: 202vh;
+    background-color: #68bcba;
+    background-image: none;
+
+  }
+
+  .header3 {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .main3 {
+    width: 60%;
+    height: 60vh;
+    margin: 17% auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .header4{
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .header6{
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .breed {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .container4{
+    width: 100vw;
+  }
+
+  .container6{
+    width: 100vw;
   }
 
 }
