@@ -1,4 +1,12 @@
 @media (max-width: 500px) {
+  .button{
+    display: none;
+  }
+
+  .home{
+    display: none;
+  }
+
   .container2 {
     height: 175vh;
   }
@@ -15,8 +23,30 @@
 
   }
 
+  .article5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 5%;
+  }
+  .article3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+
+
+  .article7 {
+    display: flex;
+    flex-direction: column;
+
+    img{
+      height: 200px;
+      width: 100%;
+    }
+  }
   .container3 {
-    height: 202vh;
+    height: 210vh;
     background-color: #68bcba;
     background-image: none;
 
@@ -29,7 +59,7 @@
   }
 
   .main3 {
-    width: 60%;
+    width: 100%;
     height: 60vh;
     margin: 17% auto;
     display: flex;
@@ -98,7 +128,7 @@
   }
 
   .main3 {
-    width: 60%;
+    width: 100%;
     height: 60vh;
     margin: 17% auto;
     display: flex;
@@ -128,10 +158,114 @@
 
   .container4{
     width: 100vw;
+    height: 60vh;
   }
 
   .container6{
     width: 100vw;
+    height: 70vh;
+  }
+
+  .main4{
+
   }
 
 }
+
+//@media (max-width: 770px) {
+//  .button{
+//    display: none;
+//  }
+//
+//  .home{
+//    display: none;
+//  }
+//
+//
+//
+//  .header2 {
+//    text-align: center;
+//    width: 100%;
+//    margin-left: 0;
+//  }
+//  .article2 {
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: space-around;
+//
+//  }
+//
+//  .article5 {
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: space-between;
+//    margin-bottom: 5%;
+//  }
+//  .article3 {
+//    display: flex;
+//    flex-direction: column;
+//    margin-bottom: 5%;
+//  }
+//
+//
+//  .article7 {
+//    display: flex;
+//    flex-direction: column;
+//
+//    img{
+//      height: 300px;
+//
+//      width: 100%;
+//    }
+//  }
+//  .container3 {
+//    height: 130vh;
+//    background-color: #68bcba;
+//    background-image: none;
+//
+//  }
+//
+//  .header3 {
+//    text-align: center;
+//    width: 100%;
+//    margin-left: 0;
+//  }
+//
+//  .main3 {
+//    width: 100%;
+//    height: 60vh;
+//    margin: 17% auto;
+//    display: flex;
+//    justify-content: center;
+//    flex-wrap: wrap;
+//    align-items: center;
+//  }
+//
+//  .header4{
+//    text-align: center;
+//    width: 100%;
+//    margin-left: 0;
+//  }
+//
+//  .header6{
+//    text-align: center;
+//    width: 100%;
+//    margin-left: 0;
+//  }
+//
+//  .breed {
+//    display: flex;
+//    justify-content: center;
+//    flex-wrap: wrap;
+//    align-items: center;
+//  }
+//
+//  .container4{
+//    width: 100vw;
+//  }
+//
+//  .container6{
+//    width: 100vw;
+//  }
+//
+//}

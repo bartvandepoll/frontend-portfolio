@@ -20,5 +20,10 @@ function showDivs(n) {
         dots[i].className = dots[i].className.replace(" w3-white", "");
     }
     x[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " w3-white";
+
+}
+
+function adjust_textarea(h) {
+    h.style.height = "20px";
+    h.style.height = (h.scrollHeight) + "px";
 }

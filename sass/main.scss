@@ -6,7 +6,7 @@ body {
 .container {
   margin: 0;
   background: linear-gradient(// a color over the background
-                  rgba(111, 142, 253, 0.5),
+                  rgba(0, 0, 0, 0.50),
                   rgba(0, 0, 0, 0.50)),
   url("images/achtergrond7.jpeg");
   //background-image: url("images/achtergrond7.jpeg");
@@ -21,7 +21,6 @@ body {
 //style voor de home knop
 .home {
   text-decoration: none;
-  color: white;
   height: 4%;
   width: 10%;
   font-size: 25px;
@@ -30,15 +29,22 @@ body {
   top: 30px;
   left: 30px;
   z-index: 1;
-  background-color: #b7b7b7;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  color: black;
   text-align: center;
-  border: 1px solid black;
+}
+
+.home:hover {
+  background-color: black;
+  color: white;
 }
 
 //style voor de mijn cv knop
 .button {
   text-decoration: none;
-  color: white;
   height: 4%;
   width: 10%;
   font-size: 25px;
@@ -47,9 +53,17 @@ body {
   top: 30px;
   right: 30px;
   z-index: 1;
-  background-color: #b7b7b7;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  color: black;
   text-align: center;
-  border: 1px solid black;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
 }
 
 //style voor de titel en foto
@@ -93,13 +107,13 @@ body {
 }
 
 .container2 {
-  height: 80vh;
+  height: 90vh;
   background-color: #fafafa;
 
 }
 
 .header2 {
-  width: 25%;
+  width: 20%;
   margin-left: 15%;
 
 }
@@ -109,16 +123,17 @@ body {
   letter-spacing: 10px;
   font-family: 'Heebo', sans-serif;
   margin-top: 0;
+  border-bottom: 5px solid red;
 
 }
 
 .main2 {
   margin: 5% auto;
-  height: 48.7vh;
+  height: 60vh;
 
 }
 
-.main2 .article {
+.article {
   //background-color: #2eff2b;
   width: 75%;
   margin: 0 auto;
@@ -135,30 +150,42 @@ body {
 
 }
 
-.article3{
+.article3 {
   display: flex;
   flex-direction: column;
   margin-left: 3%;
 
-  h5{
+  h5 {
     margin: 0;
   }
-p{
-  margin: 0;
-}
+  p {
+    margin: 0;
+  }
 }
 
-.article4{
+.article4 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 
 }
 
-.article5{
+.article5 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.article7 {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+img{
+  height: 250px;
+  width: 250px;
+  border: 2px solid black;
+}
 }
 
 .pijlen {
@@ -193,6 +220,8 @@ p{
   letter-spacing: 10px;
   font-family: 'Heebo', sans-serif;
   margin-top: 0;
+  color: white;
+
 }
 
 .main3 {
@@ -277,7 +306,7 @@ p{
 .container4 {
   height: 55vh;
   width: 50vw;
-  background-color: rgba(47, 70, 130, 0.9);
+  background-color: rgba(192, 197, 212, 0.9);
 }
 
 .header4 {
@@ -288,7 +317,85 @@ p{
     letter-spacing: 10px;
     font-family: 'Heebo', sans-serif;
     margin-top: 0;
+    border-bottom: 5px solid red;
   }
+}
+
+.form-style-4 {
+  width: 50%;
+  font-size: 16px;
+  background: #93b4c4;
+  padding: 5% 5% 2.5% 2.5%;
+  border: 5px solid #717898;
+  margin: 0 auto;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #fff;
+
+}
+
+.form-style-4 label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-style-4 label > span {
+  display: inline-block;
+  float: left;
+  width: 150px;
+}
+
+.form-style-4 input[type=text],
+.form-style-4 input[type=email] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px dashed #83A4C5;
+  width: 100%;
+  outline: none;
+  padding: 0;
+  font-style: italic;
+}
+
+.form-style-4 textarea {
+  font-style: italic;
+
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px dashed #83A4C5;
+  width: 100%;
+  overflow: hidden;
+  resize: none;
+  height: 20px;
+}
+
+.form-style-4 textarea:focus,
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus {
+  border-bottom: 1px dashed #D9FFA9;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button] {
+  background: #576E86;
+  border: none;
+  padding: 8px 10px 8px 10px;
+  border-radius: 5px;
+  color: #A8BACE;
+}
+
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover {
+  background: #394D61;
 }
 
 .container5 {
@@ -300,7 +407,7 @@ p{
 .container6 {
   height: 55vh;
   width: 50vw;
-  background-color: #b2ccdc;
+  background-color: #aeb0c4;
 }
 
 .header6 {
@@ -311,6 +418,19 @@ p{
     letter-spacing: 10px;
     font-family: 'Heebo', sans-serif;
     margin-top: 0;
+    border-bottom: 5px solid red;
+  }
+}
+
+.main6{
+  text-align: center;
+  h5{
+    font-size: large;
+    font-family: 'Heebo', sans-serif;
+  }
+  p{
+    font-size: large;
+    font-family: 'Heebo', sans-serif;
   }
 }
 
@@ -321,25 +441,34 @@ p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.footer p {
   text-align: center;
-
+  font-family: 'Heebo', sans-serif;
+  a{
+    color: #000000;
+  }
 }
 
-.social {
+.mycv {
+  text-decoration: none;
 
+
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 5%;
+  cursor: pointer;
+  border: 2px solid black;
+  background-color: #51689c;
+  color: black;
+  text-align: center;
 }
 
-.social a {
 
-}
+
+
 
 @import "mobile.scss";
 
-
-.breed{
+.breed {
   display: flex;
   flex-direction: row;
   justify-content: center;
